@@ -53,7 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['i/(:any).+'] = 'golf';
-$route['bananas/rule'] = function($fruit,$verb) {
+$route['bananas/rule'] = function() {
 return 'golf';
 };
 $route['foxtrot'] = 'tango';
